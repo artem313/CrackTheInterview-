@@ -133,11 +133,25 @@ model = whisper.load_model("large-v3-turbo", device="cuda")
 ### 5. Настройка перехвата звука
 
 1. Загрузите и установите [VB-Audio CABLE](https://vb-audio.com/Cable/)
-2. Настройте аудиовыход приложения на "CABLE Input"
-3. Настройте прослушивание:
-   - Откройте "Параметры звука" → "Дополнительные параметры звука"
-   - Перейдите на вкладку "Запись" → "CABLE Output" → "Прослушать"
-   - Включите "Прослушивать с данного устройства" и выберите наушники/динамики
+
+2. **Подробная настройка:**
+   1. Щелкните правой кнопкой мыши по иконке звука в трее и выберите "Открыть микшер громкости"
+   2. Выберите приложение, откуда нужно производить запись (Telegram/Zoom/браузер и т.д.)
+      - На примере Google Chrome: для отображения необходимо, чтобы оттуда исходил звук (включите видео или музыку)
+      - Устройство вывода: CABLE Input
+      - Устройство ввода: по умолчанию
+   
+   3. Чтобы продолжать слышать звук:
+      - Щелкните правой кнопкой мыши по иконке звука в трее
+      - Выберите "Параметры звука" → в самом низу "Дополнительные параметры звука"
+      - Перейдите на вкладку "Запись" → "CABLE Output" → "Прослушать"
+      - Поставьте галочку "Прослушивать с данного устройства" и выберите свои наушники/динамики
+      - После применения настроек вы должны слышать звуки с браузера
+
+3. **Проверка работы:**
+   - После настройки вернитесь к приложению CrackTheInterview
+   - Теперь вы должны видеть обработанный звук в интерфейсе
+   - При выделении текста распознанной речи, в правом окне появится ответ от GPT
 
 ## 🔍 Устранение неполадок
 
@@ -289,11 +303,25 @@ Edit the prompt for your specific position:
 ### 5. Audio Capture Setup
 
 1. Download and install [VB-Audio CABLE](https://vb-audio.com/Cable/)
-2. Set the application's audio output to "CABLE Input"
-3. Configure listening:
-   - Open "Sound Settings" → "Sound Control Panel"
-   - Go to "Recording" tab → "CABLE Output" → "Listen"
-   - Enable "Listen to this device" and select your headphones/speakers
+
+2. **Detailed configuration:**
+   1. Right-click on the sound icon in the system tray and select "Open Volume Mixer"
+   2. Select the application from which you want to capture audio (Telegram/Zoom/browser, etc.)
+      - Using Google Chrome as an example: to display it, there must be sound coming from it (play a video or music)
+      - Output device: CABLE Input
+      - Input device: default
+   
+   3. To continue hearing the sound:
+      - Right-click on the sound icon in the system tray
+      - Select "Sound settings" → at the very bottom "Sound control panel"
+      - Go to the "Recording" tab → "CABLE Output" → "Listen"
+      - Check "Listen to this device" and select your headphones/speakers
+      - After applying the settings, you should hear sounds from the browser
+
+3. **Verifying operation:**
+   - After configuration, return to the CrackTheInterview application
+   - You should now see the processed audio in the interface
+   - When you select the recognized speech text, the GPT response will appear in the right window
 
 ## 🔍 Troubleshooting
 
