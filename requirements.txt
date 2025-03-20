@@ -1,0 +1,9 @@
+torch
+numpy
+sounddevice
+openai
+librosa 
+whisper
+PyQt5 
+openai-whisper
+torchvision
