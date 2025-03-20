@@ -41,7 +41,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/artem313/CrackTheInterview-.git
+   git clone https://github.com/etosheartem/CrackTheInterview-.git
    cd CrackTheInterview-
    ```
 
@@ -212,7 +212,7 @@ If you like this project, you can support the developer:
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/artem313/CrackTheInterview-.git
+   git clone https://github.com/etosheartem/CrackTheInterview-.git
    cd CrackTheInterview-
    ```
 
